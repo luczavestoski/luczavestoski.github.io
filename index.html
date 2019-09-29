@@ -8,8 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Gallery</title>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
@@ -19,22 +17,20 @@
 </head>
 
 <body>
-
   <div class="container gallery-container">
 
-    <h1 id="test">Matthew Holland</h1>
+    <h1>Matthew Holland</h1>
 
     <p class="page-description text-center">San Francisco, CA</p>
     <div class="tz-gallery">
       <div class="row">
+        <!--Pictures-->
 
-      <!--Pictures-->
-
-      <div class="col-sm-6 col-md-4">
-        <a class="lightbox" href="/images/11.jpg">
-          <img src="/images/11R.jpg">
-        </a>
-      </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href="/images/11.jpg">
+            <img src="/images/11R.jpg">
+          </a>
+        </div>
         <div class="col-sm-6 col-md-4">
           <a class="lightbox" href="/images/12.jpg">
             <img src="/images/12R.jpg">
@@ -100,6 +96,10 @@
   <script>
     baguetteBox.run('.tz-gallery');
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $("#test p").addClass("load");
+    </script>
 </body>
 
 </html>
