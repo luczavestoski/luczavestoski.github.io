@@ -1,90 +1,105 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gallery</title>
+  <title>Gallery</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-    <link rel="stylesheet" href="gallery-grid.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+  <link rel="stylesheet" href="gallery-grid.css">
 
 
 </head>
+
 <body>
 
-<div class="container gallery-container">
+  <div class="container gallery-container">
 
-    <h1>Matthew Holland</h1>
+    <h1 id="test">Matthew Holland</h1>
 
     <p class="page-description text-center">San Francisco, CA</p>
-
     <div class="tz-gallery">
+      <div class="row">
 
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-              <a class="lightbox" href="/images/10.jpg">
-                  <img src="/images/10R.jpg">
-              </a>
-          </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="/images/1.jpg">
-                    <img src="/images/1R.jpg">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="/images/2.jpg">
-                    <img src="/images/2R.jpg">
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <a class="lightbox" href="/images/3.jpg">
-                    <img src="/images/3R.jpg">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="/images/4.jpg">
-                    <img src="/images/4R.jpg">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="/images/5.jpg">
-                    <img src="/images/5R.jpg">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="/images/6.jpg">
-                    <img src="/images/6R.jpg">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="/images/7.jpg">
-                    <img src="/images/7R.jpg">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="/images/8.jpg">
-                    <img src="/images/8R.jpg">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="/images/9.jpg">
-                    <img src="/images/9R.jpg">
-                </a>
-            </div>
+      <!--Pictures-->
+
+      <div class="col-sm-6 col-md-4">
+        <a class="lightbox" href="/images/11.jpg">
+          <img src="/images/11R.jpg">
+        </a>
+      </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href="/images/12.jpg">
+            <img src="/images/12R.jpg">
+          </a>
         </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href="/images/10.jpg">
+            <img src="/images/10R.jpg">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href="/images/1.jpg">
+            <img src="/images/1R.jpg">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href="/images/2.jpg">
+            <img src="/images/2R.jpg">
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <a class="lightbox" href="/images/3.jpg">
+            <img src="/images/3R.jpg">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href="/images/4.jpg">
+            <img src="/images/4R.jpg">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href="/images/5.jpg">
+            <img src="/images/5R.jpg">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href="/images/6.jpg">
+            <img src="/images/6R.jpg">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href="/images/7.jpg">
+            <img src="/images/7R.jpg">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href="/images/8.jpg">
+            <img src="/images/8R.jpg">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a class="lightbox" href="/images/9.jpg">
+            <img src="/images/9R.jpg">
+          </a>
+        </div>
+      </div>
 
     </div>
 
-</div>
+  </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
     baguetteBox.run('.tz-gallery');
-</script>
+  </script>
 </body>
+
 </html>

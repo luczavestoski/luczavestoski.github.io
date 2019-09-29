@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
 body {
     background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
     min-height: 100vh;
@@ -16,7 +18,7 @@ body {
 .gallery-container h1 {
     text-align: center;
     margin-top: 70px;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-weight: bold;
 }
 
@@ -62,4 +64,18 @@ body {
     .container.gallery-container {
         border-radius: 0;
     }
+}
+
+/* fade code */
+#test{
+    opacity: 0;
+    text-align: center;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+#test h1.load {
+    opacity: 1;
 }
