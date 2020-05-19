@@ -4,4 +4,4 @@
 
 
 Thanks to [Tim Van Damme](https://css-tricks.com/adaptive-photo-layout-with-flexbox/) and [
-Phil Hawksworth](https://css-tricks.com/adaptive-photo-layout-with-flexbox/)
+Phil Hawksworth](https://css-tricks.com/tips-for-rolling-your-own-lazy-loading/)
