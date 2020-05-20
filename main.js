@@ -12,6 +12,6 @@ imgNum -= 1;
 }
 
 //inserts images to <li> tags
-for(i = 0; i < (imgNum2-1); i++) {
+for(i = 0; i < (imgNum2); i++) {
  document.getElementsByTagName("Li")[i].innerHTML = "<img src=\"images/" +(i+1)+ ".jpg\">";
 }
