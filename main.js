@@ -4,11 +4,13 @@ var imgNum = 21; //number of photos
 //https://stackoverflow.com/questions/11489738/how-do-i-count-files-in-a-directory-using-jquery
 
 
-while(imgNum > 0){
+//clones #repeat <li> tags 
+while((imgNum-1) > 0){
 jQuery("#repeat").after(jQuery("#repeat").first().clone());
 imgNum -= 1;
 }
 
-for(i = 0; i < (20); i++) {
+//inserts images to <li> tags
+for(i = 0; i < (21); i++) {
  document.getElementsByTagName("Li")[i].innerHTML = "<img src=\"images/" +(i+1)+ ".jpg\">";
 }
