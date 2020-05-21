@@ -1,4 +1,4 @@
-var imgNum = 18; //number of photos 
+var imgNum = 20; //number of photos 
  
 
 
