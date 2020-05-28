@@ -1,4 +1,4 @@
-var imgNum = 21; //number of photos 
+var imgNum = 24; //number of photos 
  
 
 
@@ -17,7 +17,8 @@ imgNum -= 1;
 }
 
 //inserts images to <li> tags
-for(i = 0; i < (OriginalImgNum); i++) {
- document.getElementsByTagName("Li")[i].innerHTML = "<img src=\"images/" +(i+1)+ ".jpg\" class=\"lazy\">";
+for(i = 0; i < (OriginalImgNum) ; i++) {
+ document.getElementsByTagName("Li")[i].innerHTML = "<img src=\"images/" +(OriginalImgNum-i)+ ".jpg\" class=\"lazy\">";
 }
+
 
