@@ -22,6 +22,13 @@ img {
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
+  opacity: 1;
+  transition: 1s opacity;
+}
+
+img.fade-out {
+  opacity: 0;
+  transition: none;
 }
 
 /* ADVANCED */

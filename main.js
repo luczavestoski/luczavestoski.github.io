@@ -16,9 +16,12 @@ jQuery("#repeat").after(jQuery("#repeat").first().clone());
 imgNum -= 1;
 }
 
+
 //inserts images to <li> tags
 for(i = 0; i < (OriginalImgNum) ; i++) {
  document.getElementsByTagName("Li")[i].innerHTML = "<img src=\"images/" +(OriginalImgNum-i)+ ".jpg\" class=\"lazy\">";
 }
 
-
+$(function() {
+    $('img').removeClass('fade-out');
+});
