@@ -21,7 +21,3 @@ imgNum -= 1;
 for(i = 0; i < (OriginalImgNum) ; i++) {
  document.getElementsByTagName("Li")[i].innerHTML = "<img src=\"images/" +(OriginalImgNum-i)+ ".jpg\" class=\"lazy\">";
 }
-
-$(function() {
-    $('img').removeClass('fade-out');
-});
