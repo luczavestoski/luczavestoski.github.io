@@ -15,5 +15,6 @@ imgNum -= 1;
 
 //inserts images to <li> tags
 for(i = 0; i < (OriginalImgNum) ; i++) {
- document.getElementsByTagName("Li")[i].innerHTML = "<img src=\"images/" +(OriginalImgNum-i)+ ".jpg\" class=\"lazy\">";
+ document.getElementsByTagName("Li")[i].innerHTML = "<a data-fancybox href=\"images/" +(OriginalImgNum-i)+ ".jpg\"><img src=\"images/" +(OriginalImgNum-i)+ ".jpg\"></a>";
 }
+
