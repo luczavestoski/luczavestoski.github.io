@@ -1,10 +1,6 @@
 var imgNum = 26; //number of photos 
  
-
-
-
-
-// ^This partshould be automatic server side PHP, will do later 
+// ^This partshould be automatic on Netlify build, will do later 
 //https://stackoverflow.com/questions/11489738/how-do-i-count-files-in-a-directory-using-jquery
 
 
