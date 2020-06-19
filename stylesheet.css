@@ -1,5 +1,9 @@
 /* BASIC */
 
+body { 
+  background-color: #000000;
+}
+
 ul {
   display: flex;
   flex-wrap: wrap;
