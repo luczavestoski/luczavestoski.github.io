@@ -1,25 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@700&display=swap');
 /* BASIC */
+body{
+  font-family: 'IBM Plex Mono', monospace;
+}
 
-body { 
-  background-color: white;
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  padding-top: 40px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  line-height: 2vh;
+  font-size: 25px;
+  color: #1b1b1b;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #68afff;
+}
+
+#contact {
+  font-family: 'IBM Plex Sans', sans-serif;
+  position: relative;
+  top: 75%;
+
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #000000;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#000000;
+ text-align:center;
+ transition: all 0.2s;
 }
 
 ul {
   display: flex;
   flex-wrap: wrap;
+  margin: 2vmin;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin-left: 160px;
 }
+
 
 li {
   height: 40vh;
   flex-grow: 1;
-  list-style: none
+  margin: 1vmin;
+  
 }
 
 li:last-child {
-  /* There's no science in using "10" here. In all my testing, this delivered the best results.*/
   flex-grow: 10;
 }
 
@@ -28,6 +73,7 @@ img {
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
+  border-radius: 1vmin;
 }
 
 /* ADVANCED */
@@ -36,7 +82,7 @@ img {
 
 @media (max-aspect-ratio: 1/1) {
   li {
-    height: 30vh;
+    height: 20vh;
   }
 }
 
