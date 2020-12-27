@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@700&display=swap');
 /* BASIC */
 body{
   font-family: 'IBM Plex Mono', monospace;
@@ -29,10 +28,13 @@ body{
   color: #68afff;
 }
 
-#contact {
+.footer {
   font-family: 'IBM Plex Sans', sans-serif;
   position: relative;
   top: 75%;
+}
+
+#contact {
   color:rgb(255, 255, 255);
   background-color:#1f1f1f;
 }
