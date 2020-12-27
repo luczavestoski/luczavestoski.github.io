@@ -1,3 +1,4 @@
+/*
 var imgNum = 26; //number of photos 
  
 // ^This partshould be automatic on Netlify build, will do later 
@@ -69,4 +70,4 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   })
   
-  
+*/
