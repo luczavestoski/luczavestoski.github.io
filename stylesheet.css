@@ -30,8 +30,11 @@ body{
 
 .footer {
   font-family: 'IBM Plex Sans', sans-serif;
-  position: relative;
-  top: 75%;
+  /*position: relative;
+  top: 75%;*/
+  position: absolute;
+  bottom: 120px;
+  left: 0px;
 }
 
 #contact {
@@ -52,7 +55,6 @@ li {
   height: 40vh;
   flex-grow: 1;
   margin: 1vmin;
-  
 }
 
 li:last-child {

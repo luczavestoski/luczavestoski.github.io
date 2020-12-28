@@ -7,46 +7,46 @@
         <title>Gallery</title>
         <meta name="theme-color" content="#060708" />
        
-<body>
+<body onUnload="reset();">
 
   <div class="sidenav">
-    <a href="#urban">Urban</a>
-    <a href="#nature">Nature</a>
-    <a href="#candids">Candids</a>
-    <a href="#cars">Cars</a>
+    <a onclick="urban();"  href="#">Urban</a>
+    <a onclick="nature();"  href="#">Nature</a>
+    <a onclick="candids();"  href="#">Candids</a>
+    <a onclick="cars();"  href="#">Cars</a>
 
     <div class='footer'>
-      <a id="contact" href="#contact">CONTACT</a>
+      <a id="contact" href="/contact.html" data-fancybox data-options='{"type" : "iframe", "iframe" : {"preload" : false, "css" : {"width" : "600px"}}}'>CONTACT</a>
     </div>
   </div>
   
-  <ul>
-    <li> <a data-fancybox="" href="/images/26.jpg"><img class="" data-src="/images/26.jpg" src="/images/26.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/25.jpg"><img class="" data-src="/images/25.jpg" src="/images/25.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/24.jpg"><img class="" data-src="/images/24.jpg" src="/images/24.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/23.jpg"><img class="" data-src="/images/23.jpg" src="/images/23.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/22.jpg"><img class="" data-src="/images/22.jpg" src="/images/22.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/21.jpg"><img class="" data-src="/images/21.jpg" src="/images/21.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/20.jpg"><img class="" data-src="/images/20.jpg" src="/images/20.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/19.jpg"><img class="" data-src="/images/19.jpg" src="/images/19.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/18.jpg"><img class="" data-src="/images/18.jpg" src="/images/18.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/17.jpg"><img class="" data-src="/images/17.jpg" src="/images/17.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/16.jpg"><img class="" data-src="/images/16.jpg" src="/images/16.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/15.jpg"><img class="" data-src="/images/15.jpg" src="/images/15.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/14.jpg"><img class="" data-src="/images/14.jpg" src="/images/14.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/13.jpg"><img class="" data-src="/images/13.jpg" src="/images/13.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/12.jpg"><img class="" data-src="/images/12.jpg" src="/images/12.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/11.jpg"><img class="" data-src="/images/11.jpg" src="/images/11.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/10.jpg"><img class="" data-src="/images/10.jpg" src="/images/10.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/9.jpg"><img class="" data-src="/images/9.jpg" src="/images/9.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/8.jpg"><img class="" data-src="/images/8.jpg" src="/images/8.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/7.jpg"><img class="" data-src="/images/7.jpg" src="/images/7.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/6.jpg"><img class="" data-src="/images/6.jpg" src="/images/6.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/5.jpg"><img class="" data-src="/images/5.jpg" src="/images/5.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/4.jpg"><img class="" data-src="/images/4.jpg" src="/images/4.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/3.jpg"><img class="" data-src="/images/3.jpg" src="/images/3.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/2.jpg"><img class="" data-src="/images/2.jpg" src="/images/2.jpg"></a></li>
-    <li> <a data-fancybox="" href="/images/1.jpg"><img class="" data-src="/images/1.jpg" src="/images/1.jpg"></a></li>
+  <ul id='gallery'>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/26.jpg"><img src="/assets/photos/26.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/25.jpg"><img src="/assets/photos/25.jpg" loading=“lazy”></a></li>
+    <li class="urban"> <a data-fancybox="" href="/assets/photos/24.jpg"><img src="/assets/photos/24.jpg" loading=“lazy”></a></li>
+    <li class="urban"> <a data-fancybox="" href="/assets/photos/23.jpg"><img src="/assets/photos/23.jpg" loading=“lazy”></a></li>
+    <li class="nature"> <a data-fancybox="" href="/assets/photos/22.jpg"><img src="/assets/photos/22.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/21.jpg"><img src="/assets/photos/21.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/20.jpg"><img src="/assets/photos/20.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/19.jpg"><img src="/assets/photos/19.jpg" loading=“lazy”></a></li>
+    <li class="urban"> <a data-fancybox="" href="/assets/photos/18.jpg"><img src="/assets/photos/18.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/17.jpg"><img src="/assets/photos/17.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/16.jpg"><img src="/assets/photos/16.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/15.jpg"><img src="/assets/photos/15.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/14.jpg"><img src="/assets/photos/14.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/13.jpg"><img src="/assets/photos/13.jpg" loading=“lazy”></a></li>
+    <li class="urban"> <a data-fancybox="" href="/assets/photos/12.jpg"><img src="/assets/photos/12.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/11.jpg"><img src="/assets/photos/11.jpg" loading=“lazy”></a></li>
+    <li class="nature"> <a data-fancybox="" href="/assets/photos/10.jpg"><img src="/assets/photos/10.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/9.jpg"><img src="/assets/photos/9.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/8.jpg"><img src="/assets/photos/8.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/7.jpg"><img src="/assets/photos/7.jpg" loading=“lazy”></a></li>
+    <li class="candid"> <a data-fancybox="" href="/assets/photos/6.jpg"><img src="/assets/photos/6.jpg" loading=“lazy”></a></li>
+    <li class="urban"> <a data-fancybox="" href="/assets/photos/5.jpg"><img src="/assets/photos/5.jpg" loading=“lazy”></a></li>
+    <li class="urban"> <a data-fancybox="" href="/assets/photos/4.jpg"><img src="/assets/photos/4.jpg" loading=“lazy”></a></li>
+    <li class="urban"> <a data-fancybox="" href="/assets/photos/3.jpg"><img src="/assets/photos/3.jpg" loading=“lazy”></a></li>
+    <li class="urban"> <a data-fancybox="" href="/assets/photos/2.jpg"><img src="/assets/photos/2.jpg" loading=“lazy”></a></li>
+    <li class="urban"> <a data-fancybox="" href="/assets/photos/1.jpg"><img src="/assets/photos/1.jpg" loading=“lazy”></a></li>
     <li></li>
     </ul>
 

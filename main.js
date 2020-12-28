@@ -71,3 +71,47 @@ document.addEventListener("DOMContentLoaded", function() {
   })
   
 */
+
+var x = [];
+$('#gallery li').each(function() {
+      x.push($(this).attr('class'));
+});
+
+let categories = [...new Set(categories)];
+alert(categories);
+
+
+
+
+
+
+function urban() {
+  $('.urban').show();
+  $('.nature').hide();
+  $('.candid').hide();
+  $('.cars').hide();
+}
+
+function nature() {
+  $('.urban').hide();
+  $('.nature').show();
+  $('.candid').hide();
+  $('.cars').hide();
+}
+
+function candids() {
+  $('.urban').hide();
+  $('.nature').hide();
+  $('.candid').show();
+  $('.cars').hide();
+}
+
+function cars() {
+  $('.urban, .nature, .candid').hide();
+  $('.cars').show();
+}
+
+
+function reset() {
+  $('#gallery li').show();
+}
