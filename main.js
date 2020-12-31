@@ -87,16 +87,12 @@ alert(categories);
 
 function urban() {
   $('.urban').show();
-  $('.nature').hide();
-  $('.candid').hide();
-  $('.cars').hide();
+  $('.nature, .candid, .cars').hide();
 }
 
 function nature() {
-  $('.urban').hide();
   $('.nature').show();
-  $('.candid').hide();
-  $('.cars').hide();
+  $('.candid, .urban, .cars').hide();
 }
 
 function candids() {
