@@ -85,26 +85,26 @@ alert(categories);
 
 
 
-function urban() {
-  $('.urban').show();
-  $('.nature, .candid, .cars').hide();
+function underground() {
+  $('.underground').show();
+  $('.nature, .heights, .transit').hide();
 }
 
 function nature() {
   $('.nature').show();
-  $('.candid, .urban, .cars').hide();
+  $('.heights, .underground, .transit').hide();
 }
 
-function candids() {
-  $('.urban').hide();
+function heights() {
+  $('.underground').hide();
   $('.nature').hide();
-  $('.candid').show();
-  $('.cars').hide();
+  $('.heights').show();
+  $('.transit').hide();
 }
 
-function cars() {
-  $('.urban, .nature, .candid').hide();
-  $('.cars').show();
+function transit() {
+  $('.underground, .nature, .heights').hide();
+  $('.transit').show();
 }
 
 
