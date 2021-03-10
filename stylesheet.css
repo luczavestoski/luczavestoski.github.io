@@ -65,7 +65,7 @@ img {
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
-  border-radius: 1vmin;
+  border-radius: 0vmin;
 }
 
 /* ADVANCED */
