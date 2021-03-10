@@ -85,25 +85,25 @@ alert(categories);
 
 
 
-function underground() {
-  $('.underground').show();
+function below() {
+  $('.below').show();
   $('.nature, .heights, .transit').hide();
 }
 
 function nature() {
   $('.nature').show();
-  $('.heights, .underground, .transit').hide();
+  $('.heights, .below, .transit').hide();
 }
 
 function heights() {
-  $('.underground').hide();
+  $('.below').hide();
   $('.nature').hide();
   $('.heights').show();
   $('.transit').hide();
 }
 
 function transit() {
-  $('.underground, .nature, .heights').hide();
+  $('.below, .nature, .heights').hide();
   $('.transit').show();
 }
 
