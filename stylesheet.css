@@ -28,14 +28,14 @@ body{
   color: #68afff;
 }
 
-/* .footer {
+ .footer {
   font-family: 'IBM Plex Sans', sans-serif;
-  /*position: relative;
-  top: 75%;*/
+  position: relative;
+  top: 75%; 
   position: absolute;
   bottom: 120px;
   left: 0px;
-} */
+} 
 
 #contact {
   color:rgb(255, 255, 255);
