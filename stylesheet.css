@@ -45,9 +45,9 @@ body{
 ul {
   display: flex;
   flex-wrap: wrap;
-  margin: 2vmin;
+  margin: 1vmin;
   list-style: none;
-  margin-left: 160px;
+  margin-left: 80px;
 }
 
 
